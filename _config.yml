@@ -25,11 +25,11 @@ github_username:  jjw0513
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
+instagram_username: imfine_apple_nu
+#linkedin_username: jekyll
 #xing_username: jekyll
 #pinterest_username: jekyll
-youtube_username: jekyll
+#youtube_username: jekyll
 #orcid_username: 0000-0000-0000-0000
 #googlescholar_username: D847cGsAAAAJ
 
@@ -52,7 +52,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다. 아직 부족하지만 귀엽게 봐주시길 바랍니다.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Projects 및 Study # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -81,7 +81,13 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
+
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project 
+
+  - title: 경력 사항
     layout: list
     content:
       - layout: right
@@ -93,7 +99,7 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-  - title: Education
+  - title: 학력
     layout: list
     content:
       - layout: top-right
@@ -104,7 +110,7 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-  - title: A Little More About Me
+  - title: 기술 및 stack
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
