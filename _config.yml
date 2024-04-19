@@ -54,10 +54,12 @@ about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다. 아직 부족하지만 귀엽게 봐주시길 바랍니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
+  "정재우"란 사람의 KeyWord 
+    - 2000.05.13 남(25세)
+    - 경기도 안양시 거주
+    - 대한민국 제7 보병사단 육군 병장 만기 전역
+    - 혈액형 : B    MBTI : ESTP
+    - <a href="google.com">Links</a> 여긴 나중에 운동 영상
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
