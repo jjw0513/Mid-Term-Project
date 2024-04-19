@@ -34,10 +34,10 @@ instagram_username: imfine_apple_nu
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -58,7 +58,8 @@ about_content: | # this will include new lines to allow paragraphs
     - 2000.05.13 남(25세)
     - 경기도 안양시 거주
     - 대한민국 제7 보병사단 육군 병장 만기 전역
-    - 혈액형 : B    MBTI : ESTP
+    - 혈액형 : B
+    - MBTI : ESTP
     - <a href="google.com">Links</a> 여긴 나중에 운동 영상
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
@@ -69,9 +70,9 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Transformer 번역기 구현
+        link: https://colab.research.google.com/drive/1jh0diFAGtuKUF7DbOyipScRWnKEX5CSG#scrollTo=jCfL6bLPsKfh
+        link_text: 프로젝트 링크
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
