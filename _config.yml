@@ -79,9 +79,9 @@ content:
         link: https://colab.research.google.com/drive/1jh0diFAGtuKUF7DbOyipScRWnKEX5CSG#scrollTo=jCfL6bLPsKfh
         link_text: 프로젝트 링크
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: colab_icon
+            icon: custom-colab-icon
+            url: https://colab.research.google.com/drive/1jh0diFAGtuKUF7DbOyipScRWnKEX5CSG#scrollTo=jCfL6bLPsKfh
         
         quote: >
           DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
