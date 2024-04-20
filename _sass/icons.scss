@@ -24,6 +24,29 @@ ul.icons a {
   color: #aaa;
 }
 
+/* 기존 스타일에 이어서 추가 */
+.custom-notion-icon {
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  display: inline-block;
+  width: 2.75rem; /* 아이콘 크기를 기존 스타일과 동일하게 설정 */
+  height: 2.75rem; /* 아이콘 크기를 기존 스타일과 동일하게 설정 */
+  line-height: 2.8rem;
+  text-align: center;
+  border: 0;
+  box-shadow: none;
+  padding:0;
+  background-image: url('../images/notion.jpg'); /* 실제 Notion 아이콘 이미지 경로로 변경 */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  border-radius: 100%; /* 원형의 모양을 유지 */
+  color: #aaa;
+}
+
+
 .icons i {
   font-size: 30px;
   line-height:60px;
