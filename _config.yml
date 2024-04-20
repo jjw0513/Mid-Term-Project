@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 정재우  
+name: 정재우 
 title: DL&RL 엔지니어를 희망하는 학생
 email: wjdwodn0513@naver.com
 # email_title: Email (Email title override)
@@ -58,11 +58,15 @@ about_content: | # this will include new lines to allow paragraphs
   <big><strong>"정재우"란 ?</strong></big> 
     - 2000.05.13 남(25세)
     - 경기도 안양시 거주
-    - 대한민국 제7 보병사단 육군 병장 만기 전역
+    - 대한민국 육군 제7 보병사단 수색대대 병장 만기 전역
     - 혈액형 : B
     - MBTI : ESTP
-    - <a href="google.com">Links</a> 여긴 나중에 운동 영상
-    - Images ![alt text](/images/hobby.mp4 "workout")
+    - 취미는 운동!
+    - <video autoplay loop muted controls style="width:70%; height:auto; object-fit: cover;">
+        <source src="/images/workout.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
 
 content:
   - title: Projects 및 Study # Title for the section
@@ -78,9 +82,7 @@ content:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        
         quote: >
           DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
         description: | # this will include new lines to allow paragraphs
@@ -94,12 +96,10 @@ content:
         link: https://www.notion.so/3c6531d25d3b4f7f88d1ed75cd79e6b4
         link_text: Notion 링크
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title: Notion page for project
+            icon: custom-notion-icon # This class should be defined in your CSS
+            url: https://www.notion.so/3c6531d25d3b4f7f88d1ed75cd79e6b4
+          
         quote: >
           강화학습 논문 Review
         description: | # this will include new lines to allow paragraphs
