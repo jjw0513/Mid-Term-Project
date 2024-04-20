@@ -16,7 +16,7 @@ phone: 010-9205-5065
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 #twitter_username: jekyllrb
@@ -50,18 +50,19 @@ instagram_username: imfine_apple_nu
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg #(eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다. 아직 부족하지만 귀엽게 봐주시길 바랍니다.
+  안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다.<br /> 
+  아직 부족하지만 귀엽게 봐주시길 바랍니다.
 
-  "정재우"란 사람의 KeyWord 
+  <big><strong>"정재우"란 ?</strong></big> 
     - 2000.05.13 남(25세)
     - 경기도 안양시 거주
     - 대한민국 제7 보병사단 육군 병장 만기 전역
     - 혈액형 : B
     - MBTI : ESTP
     - <a href="google.com">Links</a> 여긴 나중에 운동 영상
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+    - Images ![alt text](/images/hobby.mp4 "workout")
 
 content:
   - title: Projects 및 Study # Title for the section
@@ -70,7 +71,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Transformer 번역기 구현
+        title: Transformer<br /> 번역기 구현
         link: https://colab.research.google.com/drive/1jh0diFAGtuKUF7DbOyipScRWnKEX5CSG#scrollTo=jCfL6bLPsKfh
         link_text: 프로젝트 링크
         additional_links:
@@ -81,14 +82,32 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          한/영 dataset을 사용해 end-to-end 번역기 구현
 
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Reinforcement Learning<br />
+        link: https://www.notion.so/3c6531d25d3b4f7f88d1ed75cd79e6b4
+        link_text: Notion 링크
+        additional_links:
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            icon: fab fa-github
+            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          강화학습 논문 Review
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project 
+          Multi agent, MBRL, CAP 해결 논문 리뷰
+
+        
+
+       
 
   - title: 경력 사항
     layout: list
@@ -102,17 +121,37 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+
+
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role    
   - title: 학력
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 평촌고등학교
+        sub_title: General Student
+        caption: March 2016 - 2019
         quote: >
-          Short institution or course description (optional)
+          DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          한/영 dataset을 사용해 번역기 구현
+
+      - layout: top-right
+        title: Dankook University
+        sub_title: SW융합대학 소프트웨어학과
+        caption: March 2021 - present
+        quote: >
+          DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
+        description: | # this will include new lines to allow paragraphs
+          한/영 dataset을 사용해 한/영 번역기 구현
   - title: 기술 및 stack
     layout: text
     content: | # this will include new lines to allow paragraphs
