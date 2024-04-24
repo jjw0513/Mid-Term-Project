@@ -50,7 +50,7 @@ instagram_username: imfine_apple_nu
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg #(eg. images/profile.jpg)
+about_profile_image: ./images/profile.jpg #(eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다.<br /> 
   아직 부족하지만 귀엽게 봐주시길 바랍니다.
@@ -63,7 +63,7 @@ about_content: | # this will include new lines to allow paragraphs
     - MBTI : ESTP
     - 취미는 운동!
     - <video autoplay loop muted controls style="width:50%; height:auto; object-fit: cover;">
-        <source src="/images/workout.mp4" type="video/mp4">
+        <source src="./images/workout.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
 
@@ -120,9 +120,9 @@ content:
         quote: >
           고려인 아이들 대상 문화 및 위생 봉사
         description: | # this will include new lines to allow paragraphs
-            <img src="/images/2017-1.jpg" alt="해외봉사이미지" style="max-width: 180px;">
-            <img src="/images/2017-2.jpg" alt="해외봉사이미지" style="max-width: 180px;">
-            <img src="/images/2017-3.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+            <img src="./images/2017-1.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+            <img src="./images/2017-2.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+            <img src="./images/2017-3.jpg" alt="해외봉사이미지" style="max-width: 180px;">
   
       - layout: left
         title: 네이버 AI 엔지니어<br/>부스트클래스 수료
@@ -132,7 +132,7 @@ content:
         quote: >
         
         description: | # this will include new lines to allow paragraphs
-            <img src="/images/ai.jpg" alt="부스트캠프수료" style="float: right; max-width: 250px;">
+            <img src="./images/ai.jpg" alt="부스트캠프수료" style="float: right; max-width: 250px;">
 
       - layout: right
         title: 단국대학교<br/> 인공지능 연구실<br/> hail 
@@ -146,7 +146,7 @@ content:
           인공지능 관련 논문 리뷰 및 발표<br/>
           현재는 RL 분야 개인 research 진행 중.
 
-          <img src="/images/lab.jpg" alt="lab_notion" style="max-width: 350px;">       
+          <img src="./images/lab.jpg" alt="lab_notion" style="max-width: 350px;">       
             
   - title: 학력
     layout: list
@@ -178,8 +178,8 @@ content:
 
 # Footer
 footer_show_references: true
-references_title: References on request (Override references text)
-footer_copyright: 'Copyright (c) 2022 정재우. All rights reserved. MIT License'
+references_title: #References on request (Override references text)
+
 #Build settings
 #theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 #remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
