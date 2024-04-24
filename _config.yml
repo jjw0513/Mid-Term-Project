@@ -112,7 +112,7 @@ content:
   - title: 경력 사항
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: 우즈베키스탄<br />해외 봉사
         sub_title: 회계 담당 단원
         caption: during July 2017
@@ -132,9 +132,9 @@ content:
         quote: >
         
         description: | # this will include new lines to allow paragraphs
-            <img src="/images/ai.jpg" alt="부스트캠프수료" style="max-width: 250px;">
+            <img src="/images/ai.jpg" alt="부스트캠프수료" style="float: right; max-width: 250px;">
 
-      - layout: left
+      - layout: right
         title: 단국대학교<br/> 인공지능 연구실<br/> hail 
         sub_title: 학부 연구생
         caption: Dec 2023 ~ Present
@@ -178,11 +178,11 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+references_title: References on request (Override references text)
+footer_copyright: 'Copyright (c) 2022 정재우. All rights reserved. MIT License'
+#Build settings
+#theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+#remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
