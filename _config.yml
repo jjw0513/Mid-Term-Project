@@ -62,7 +62,7 @@ about_content: | # this will include new lines to allow paragraphs
     - 혈액형 : B
     - MBTI : ESTP
     - 취미는 운동!
-    - <video autoplay loop muted controls style="width:70%; height:auto; object-fit: cover;">
+    - <video autoplay loop muted controls style="width:50%; height:auto; object-fit: cover;">
         <source src="/images/workout.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
@@ -112,46 +112,63 @@ content:
   - title: 경력 사항
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: 우즈베키스탄<br />해외 봉사
+        sub_title: 회계 담당 단원
+        caption: during July 2017
+        link: #
         quote: >
-          Short description of the company (optional)
+          고려인 아이들 대상 문화 및 위생 봉사
         description: | # this will include new lines to allow paragraphs
-          Description of role
-
-
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+            <img src="/images/2017-1.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+            <img src="/images/2017-2.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+            <img src="/images/2017-3.jpg" alt="해외봉사이미지" style="max-width: 180px;">
+  
+      - layout: left
+        title: 네이버 AI 엔지니어<br/>부스트클래스 수료
+        sub_title: 교육 훈련생
+        caption: Jan 2024 ~ March 2024
+        link: 
         quote: >
-          Short description of the company (optional)
+        
         description: | # this will include new lines to allow paragraphs
-          Description of role    
+            <img src="/images/ai.jpg" alt="부스트캠프수료" style="max-width: 250px;">
+
+      - layout: left
+        title: 단국대학교<br/> 인공지능 연구실<br/> hail 
+        sub_title: 학부 연구생
+        caption: Dec 2023 ~ Present
+        link: https://hail.dankook.ac.kr/
+        quote: >
+          human+artificial intelligence lab. "hail"
+        description: | # this will include new lines to allow paragraphs
+          강화 학습 및 딥러닝 연구 <br/>
+          인공지능 관련 논문 리뷰 및 발표<br/>
+          현재는 RL 분야 개인 research 진행 중.
+
+          <img src="/images/lab.jpg" alt="lab_notion" style="max-width: 350px;">       
+            
   - title: 학력
     layout: list
     content:
-      - layout: top-right
+      - layout: top-center
         title: 평촌고등학교
         sub_title: General Student
         caption: March 2016 - 2019
         quote: >
-          DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
+          
         description: | # this will include new lines to allow paragraphs
-          한/영 dataset을 사용해 번역기 구현
+        
 
-      - layout: top-right
+      - layout: top-center
         title: Dankook University
         sub_title: SW융합대학 소프트웨어학과
         caption: March 2021 - present
+        link : https://www.dankook.ac.kr/web/kor
         quote: >
-          DL, 자연어 처리, 생성형 AI의 대세 "Transformer"
+          
         description: | # this will include new lines to allow paragraphs
-          한/영 dataset을 사용해 한/영 번역기 구현
+          
   - title: 기술 및 stack
     layout: text
     content: | # this will include new lines to allow paragraphs
