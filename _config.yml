@@ -73,7 +73,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+       # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Transformer<br /> 번역기 구현
         link: https://colab.research.google.com/drive/1jh0diFAGtuKUF7DbOyipScRWnKEX5CSG#scrollTo=jCfL6bLPsKfh
@@ -157,7 +157,7 @@ content:
     layout: list
     content:
       - layout: top-center
-        border : weak
+       # border : weak
         title: 평촌고등학교
         sub_title: General Student
         caption: March 2016 - 2019
