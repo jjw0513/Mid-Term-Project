@@ -1,11 +1,13 @@
 # <big>😎단국대학교 오픈소스활용SW<br /> 자기소개 웹사이트 과제👀</big>[![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
+<br/>
+
+## 자기소개 웹사이트 접속 URL : https://jjw0513.github.io/Mid-Term-Project/
 
 
+<br/>
 
-
-
-
-## 사용 & 배포 guide
+## 탬플릿 사용을 위한 배포 guide
+다음의 절차를 따라해주세요!
 This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
 
 Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
