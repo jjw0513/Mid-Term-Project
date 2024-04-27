@@ -53,7 +53,7 @@ instagram_username: imfine_apple_nu
 about_profile_image: ./images/profile.jpg #(eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. DL & RL 엔지니어를 희망하는 정재우입니다.<br /> 
-  아직 부족하지만 귀엽게 봐주시길 바랍니다.
+  목표를 위해 꾸준하게 발전하겠습니다.
 
   <big><strong>"정재우"란 ?</strong></big> 
     - 2000.05.13 남(25세)
@@ -93,12 +93,12 @@ content:
        # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Reinforcement Learning<br />
-        link: https://www.notion.so/3c6531d25d3b4f7f88d1ed75cd79e6b4
+        link: https://www.notion.so/e6b2720052c74952bf089fc7dcf159f5
         link_text: Notion 링크
         additional_links:
           - title: Notion page for project
             icon: custom-notion-icon # This class should be defined in your CSS
-            url: https://www.notion.so/3c6531d25d3b4f7f88d1ed75cd79e6b4
+            url: https://www.notion.so/e6b2720052c74952bf089fc7dcf159f5
           
         quote: >
           강화학습 논문 Review
