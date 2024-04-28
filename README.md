@@ -1,4 +1,4 @@
-# <big>😎단국대학교 오픈소스활용SW<br /> 자기소개 웹사이트 과제👀</big>[![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master) <tab>32217698 정재우</tab>
+# <big>😎단국대학교 오픈소스활용SW<br /> 자기소개 웹사이트 과제👀</big>[![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master) <br><br><tab>게시자 :  32217698 정재우</tab>
 <br/>
 
 ## 자기소개 웹사이트 접속 URL : https://jjw0513.github.io/Mid-Term-Project/
